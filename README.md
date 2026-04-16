@@ -62,10 +62,11 @@ This project is a responsive and accessible Profile Card built using HTML, CSS, 
 
 ## Live Demo
 
-(Add your deployed link here)
+https://chizaram-julius.github.io/hng-stage-1b-profile-card/
 
 ---
 
 ## GitHub Repository
 
-(Add your GitHub repo link here)
+https://github.com/chizaram-julius/hng-stage-1b-profile-card
+
