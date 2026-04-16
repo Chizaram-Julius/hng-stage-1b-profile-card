@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* AVATAR */
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #0056b3;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h2 {
+  margin: 0;
+  color: #222;
+}
+
+p {
+  line-height: 1.5;
+  color: #444;
+}
+
+/* TIME */
+#time {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+/* LINKS */
+a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+/* LISTS */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* SECTIONS */
+section {
+  background: #f9fbff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  figure {
+    flex: 1;
+  }
+
+  .content {
+    flex: 2;
+  }
+}

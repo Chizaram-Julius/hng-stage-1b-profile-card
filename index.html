@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="card">
+      <!-- AVATAR -->
+      <figure data-testid="test-user-avatar-container">
+        <img
+          src="/STAGE 1B/image/Julius Chizaram Onyinyechukwu.jpeg"
+          alt="Profile photo of Chizaram Julius"
+          data-testid="test-user-avatar"
+        />
+        <figcaption data-testid="test-user-role">Frontend Developer</figcaption>
+      </figure>
+
+      <!-- CONTENT -->
+      <div class="content" data-testid="test-user-content">
+        <!-- NAME -->
+        <header>
+          <h2 data-testid="test-user-name">Julius Chizaram</h2>
+        </header>
+
+        <!-- BIO -->
+        <p data-testid="test-user-bio">
+          I am a frontend developer focused on building responsive, accessible,
+          and user-friendly web applications using modern web technologies.
+        </p>
+
+        <!-- TIME -->
+        <p data-testid="test-user-time" id="time" aria-live="polite"></p>
+
+        <!-- SOCIAL LINKS -->
+        <nav data-testid="test-user-social-nav">
+          <ul data-testid="test-user-social-links">
+            <li data-testid="test-user-social-item-linkedin">
+              <a
+                href="https://www.linkedin.com/in/chizaram-julius-608714181"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- HOBBIES -->
+        <section data-testid="test-user-hobbies-section">
+          <h3 data-testid="test-user-hobbies-heading">Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li data-testid="test-user-hobby-1">Coding</li>
+            <li data-testid="test-user-hobby-2">Reading</li>
+            <li data-testid="test-user-hobby-3">Learning new technologies</li>
+            <li data-testid="test-user-hobby-4">Travelling</li>
+          </ul>
+        </section>
+
+        <!-- DISLIKES -->
+        <section data-testid="test-user-dislikes-section">
+          <h3 data-testid="test-user-dislikes-heading">Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li data-testid="test-user-dislike-1">Poor user experience</li>
+            <li data-testid="test-user-dislike-2">Unresponsive design</li>
+            <li data-testid="test-user-dislike-3">Procastination</li>
+            <li data-testid="test-user-dislike-4">Poverty</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
